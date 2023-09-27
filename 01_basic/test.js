@@ -19,3 +19,10 @@ user2.email = "vaish0123@gmail.com";
 
 console.log(user.email);
 console.log(user2.email);
+
+let iphone = {
+    camera : "13mp",
+    price : "1000000",
+    color : "red"
+}
+console.log(iphone.camera.toUpperCase());
