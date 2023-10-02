@@ -50,3 +50,31 @@ const users = [
 // console.log(tinderUser.hasOwnProperty("id"));  // property present or not.
 
  
+// Destructuring ----
+
+const course = {
+    courseName : "taniJs",
+    coursePrice : "999" ,
+    courseInstructor :"Tanishq"
+}
+
+// console.log(course.courseInstructor);
+
+// we can use another syntax
+const {courseInstructor:Instructor} = course ; // we can also give short name
+// console.log(courseInstructor);
+// console.log(Instructor);
+
+// json syntax
+// {
+//  "name" : "tani",
+//  "section" : "4B",
+// "course" : "B-Tech"
+// }
+/*
+[
+    {},
+    {},
+    {}
+]
+*/
