@@ -25,3 +25,7 @@ function one (){
 
 // if else example
 
+{
+
+}
+// this  is the json format  of coading and it is called 
