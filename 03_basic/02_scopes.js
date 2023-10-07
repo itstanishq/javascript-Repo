@@ -23,9 +23,26 @@ function one (){
 }
 // one();
 
-// if else example
-
-{
+if (true){
+  const username = "tanishq";
+  if (username == "tanishq"){
+    const website = "insta" 
+   // console.log(username + website);
+  }
+  //console.log(website);
 
 }
-// this  is the json format  of coading and it is called 
+// console.log(username);
+
+
+// .. . . . .. ...........................
+console.log(addOne(5));
+function addOne(num){
+  return num + 1
+} // this is called normal function
+
+addTwo(4);   // this will thrw error
+const addTwo = function(num){
+  return num + 2
+}   // this is called expression. vairable can hold any value 
+  
