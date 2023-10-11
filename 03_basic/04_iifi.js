@@ -13,3 +13,7 @@
 
 
 // normal interview ques 
+
+// call stack in javascript
+//memory management in javascript 
+
