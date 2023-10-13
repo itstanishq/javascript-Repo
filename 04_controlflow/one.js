@@ -33,6 +33,8 @@
 //     console.log("the num is odd");
 // }
 
-if (2==2) {
-    console.log("ayyo this number is equal");
-}
+// if (2==2) {
+//     console.log("ayyo this number is equal");
+// }
+
+// wont to write the another code baby
