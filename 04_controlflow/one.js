@@ -26,9 +26,13 @@
 //     console.log("less than 1200");
 // }
 
-let someNumber = 3 ;
-if (someNumber%2==0) {
-    console.log("the number is even");
-}else{
-    console.log("the num is odd");
+// let someNumber = 3 ;
+// if (someNumber%2==0) {
+//     console.log("the number is even");
+// }else{
+//     console.log("the num is odd");
+// }
+
+if (2==2) {
+    console.log("ayyo this number is equal");
 }
