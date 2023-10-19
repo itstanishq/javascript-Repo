@@ -19,3 +19,5 @@ do{
   console.log(`the value is : ${score}`);
   score++
 }while(score<=10)
+
+// this is do while loop just for commit
