@@ -21,3 +21,5 @@ do{
 }while(score<=10)
 
 // this is do while loop just for commit
+
+// loops done tommorow dom 
