@@ -44,3 +44,12 @@ for (let i = 1; i <= 10; i++) {
   }
   console.log(i);
 }
+
+
+let sum = 0;
+
+for (let i = 1; i <= 10; i++) {
+    sum += i;  // This is same as: sum = sum + i
+}
+
+console.log('The sum of 1 to 10 is: ', sum); // "The sum of 1 to 10 is:  55"
