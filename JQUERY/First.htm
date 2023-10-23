@@ -1,21 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jquery link</title>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+$.ajax({
+    url: "/api/getWeather",
+    data: {
+      zipcode: 97201
+    },
+    success: function( result ) {
+      $( "#weather-temp" ).html( "<strong>" + result + "</strong> degrees" );
+    }
+  });
 
-    <script>
-        $(document).ready(function(){
-            console.log("helloworld");
-        })
-            
-// this is an js file
 
-    </script>
-</head>
-<body>
-    
-</body>
-</html>
+  
