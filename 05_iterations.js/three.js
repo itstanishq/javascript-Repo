@@ -19,6 +19,13 @@ map.set("ENG" , "ENGLAND");
 
 console.log(map);
 
+const sap = new Map ;
+map.set("1","ANIMATION")
+map.set("2","DESIGN")
+map.set("SR" , "SRI LANKA");
+map.set("FR" , "FRANCE");
+map.set("ENG" , "ENGLAND");
+
 
 
 
