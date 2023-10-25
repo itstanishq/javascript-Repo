@@ -79,3 +79,7 @@ do {
 while (i < 5);
 
 
+const cars = ["BMW", "Volvo", "Saab", "Ford"];
+for (let i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
+}
