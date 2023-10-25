@@ -68,3 +68,14 @@ for (var i = 0; i < numbers.length; i++) {
 
 console.log("The even numbers are: " + evenNumbers); // "The even numbers are: 4,44,64,24,32,74,22"
 console.log("The odd numbers are: " + oddNumbers); // "The odd numbers are: 1,55,55,19,17,23"
+
+
+let text = "";
+let i = 0;
+do {
+  text += i + "<br>";
+  i++;
+}
+while (i < 5);
+
+
