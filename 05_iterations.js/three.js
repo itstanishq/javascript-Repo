@@ -37,5 +37,14 @@ function myFunction(item) {
   sum += item;
 } 
 
+const numbs = [65, 44, 12, 4];
+numbers.forEach(myFunction)
+
+function myFunction(item, index, arr) {
+  arr[index] = item * 10;
+}
+
+
+
 
 
