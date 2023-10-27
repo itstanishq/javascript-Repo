@@ -26,6 +26,16 @@ map.set("SR" , "SRI LANKA");
 map.set("FR" , "FRANCE");
 map.set("ENG" , "ENGLAND");
 
+const fruits = ["apple", "orange", "cherry"];
+fruits.forEach(myFunction);
+
+let sum = 0;
+const numbers = [65, 44, 12, 4];
+numbers.forEach(myFunction);
+
+function myFunction(item) {
+  sum += item;
+} 
 
 
 
