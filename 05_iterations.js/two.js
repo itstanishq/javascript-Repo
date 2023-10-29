@@ -83,3 +83,16 @@ const cars = ["BMW", "Volvo", "Saab", "Ford"];
 for (let i = 0; i < cars.length; i++) {
   text += cars[i] + "<br>";
 }
+
+let j = 1;
+for (;;) {
+  if (j > 10) {
+    break;
+  }
+  console.log(j);
+  j += 2;
+}
+
+let sum = 0;
+for (let i = 0; i <= 9; i++, sum += i);
+console.log(sum);
